@@ -140,7 +140,7 @@
     <property name="env.VBOX_MSI_INSTALL_PATH" value="C:\Program Files\Oracle\VirtualBox\" />
     <property name="env.PROCESSOR_LEVEL" value="6" />
     <property name="env.NODE_LABELS" value="master" />
-  </properties>
+  </properties> 
   <error message="org/openqa/selenium/NoSuchElementException" type="java.lang.NoClassDefFoundError">java.lang.NoClassDefFoundError: org/openqa/selenium/NoSuchElementException
 	at java.lang.Class.forName0(Native Method)
 	at java.lang.Class.forName(Class.java:264)
@@ -150,6 +150,7 @@ Caused by: java.lang.ClassNotFoundException: org.openqa.selenium.NoSuchElementEx
 	at sun.misc.Launcher$AppClassLoader.loadClass(Launcher.java:331)
 	at java.lang.ClassLoader.loadClass(ClassLoader.java:357)
 </error>
+	
   <system-out><![CDATA[]]></system-out>
   <system-err><![CDATA[]]></system-err>
 </testsuite>
